@@ -1,6 +1,83 @@
-export type Product = { id:string; slug:string; name:string; price:number; collection:string; colorway:string; description:string; features:string[]; images:string[] }
+export type Product = {
+  id: string
+  slug: string
+  name: string
+  price: number
+  collection: string
+  colorway: string
+  description: string
+  features: string[]
+  images: string[]
+}
+
 export const products: Product[] = [
-{ id:'1', slug:'neon-tiger-pro', name:'Neon Tiger Pro', price:18, collection:'Wildline', colorway:'Neon Lime / Matte Black', description:'Tiger-stripe inspired tacky overgrip with pro-level control and a statement finish.', features:['SweatLock absorption','CushionFlex comfort','High-tack feel','Match-grade durability'], images:['https://images.unsplash.com/photo-1595435934011-2cd84be7cf4f?auto=format&fit=crop&w=1200&q=80','https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=1200&q=80']},
-{ id:'2', slug:'ultraviolet-leopard', name:'Ultraviolet Leopard', price:20, collection:'Wildline', colorway:'Violet Fade / Charcoal', description:'Leopard-inspired gradient grip designed for high-energy players and bold kits.', features:['SweatLock absorption','CushionFlex comfort','High-tack feel','Match-grade durability'], images:['https://images.unsplash.com/photo-1622279457486-28f7f0f75cbf?auto=format&fit=crop&w=1200&q=80']},
-{ id:'3', slug:'noir-monochrome-3pk', name:'Noir Monochrome 3-Pack', price:42, collection:'Core Mono', colorway:'Jet Black / Stone White', description:'Minimal monochrome overgrips for players who want elevated restraint and premium texture.', features:['SweatLock absorption','CushionFlex comfort','Medium tack feel','Extra-durable weave'], images:['https://images.unsplash.com/photo-1520614073994-61da59c9f2d6?auto=format&fit=crop&w=1200&q=80']}
+  {
+    id: "1",
+    slug: "neon-tiger-pro",
+    name: "Neon Tiger Pro",
+    price: 18,
+    collection: "Wildline",
+    colorway: "Neon Lime / Matte Black",
+    description:
+      "Tiger-stripe inspired tacky overgrip with pro-level control and a statement finish.",
+    features: [
+      "SweatLock absorption",
+      "CushionFlex comfort",
+      "High-tack feel",
+      "Match-grade durability"
+    ],
+    images: [
+      "/images/products/neon-tiger/neon-tiger-packshot-01.png",
+      "/images/products/neon-tiger/neon-tiger-angle-02.png",
+      "/images/products/neon-tiger/neon-tiger-macro-03.png",
+      "/images/products/neon-tiger/neon-tiger-inhand-04.png",
+      "/images/products/neon-tiger/neon-tiger-lifestyle-05.png"
+    ]
+  },
+  {
+    id: "2",
+    slug: "blue-wave",
+    name: "Blue Wave",
+    price: 20,
+    collection: "Flowline",
+    colorway: "Electric Blue / Midnight",
+    description:
+      "Wave-inspired performance grip with expressive color and all-match control.",
+    features: [
+      "SweatLock absorption",
+      "CushionFlex comfort",
+      "High-tack feel",
+      "Match-grade durability"
+    ],
+    images: [
+      "/images/products/blue-wave/blue-wave-packshot-01.png",
+      "/images/products/blue-wave/blue-wave-angle-02.png",
+      "/images/products/blue-wave/blue-wave-macro-03.png",
+      "/images/products/blue-wave/blue-wave-inhand-04.png",
+      "/images/products/blue-wave/blue-wave-lifestyle-05.png"
+    ]
+  },
+  {
+    id: "3",
+    slug: "sunset-gradient",
+    name: "Sunset Gradient",
+    price: 22,
+    collection: "Chromaline",
+    colorway: "Sunset Orange / Magenta / Violet",
+    description:
+      "Gradient overgrip built for players who want standout visuals with premium feel.",
+    features: [
+      "SweatLock absorption",
+      "CushionFlex comfort",
+      "Medium-high tack feel",
+      "Extra-durable weave"
+    ],
+    images: [
+      "/images/products/sunset-gradient/sunset-gradient-packshot-01.png",
+      "/images/products/sunset-gradient/sunset-gradient-angle-02.png",
+      "/images/products/sunset-gradient/sunset-gradient-macro-03.png",
+      "/images/products/sunset-gradient/sunset-gradient-inhand-04.png",
+      "/images/products/sunset-gradient/sunset-gradient-lifestyle-05.png"
+    ]
+  }
 ]
