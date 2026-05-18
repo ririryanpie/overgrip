@@ -1,0 +1,1 @@
+export default function Page(){return <main className='section-wrap'><h1 className='text-4xl font-black capitalize'>faq</h1><p className='mt-4 text-white/70'>Premium Shopify-first placeholder content for faq page.</p></main>}
