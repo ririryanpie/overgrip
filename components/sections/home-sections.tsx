@@ -339,8 +339,4 @@ export function ProductGrid() {
       </div>
     </section>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d08e430d (feat: align homepage ecommerce flow with local image assets)
