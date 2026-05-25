@@ -15,12 +15,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className='sticky top-0 z-30 border-b border-white/10 bg-black/75 backdrop-blur'>
           <nav className='section-wrap flex flex-wrap items-center justify-between gap-3 py-4 md:py-5'>
-            <div>
-              <Link href='/' className='font-black tracking-[0.2em]'>
-                VIBE GRIPS
-              </Link>
-              <p className='text-[10px] uppercase tracking-[0.2em] text-white/60'>Colour your game</p>
-            </div>
             <Link href='/' className='font-black tracking-[0.2em]'>
               OVERGRIP
             </Link>
