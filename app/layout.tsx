@@ -21,6 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
               <p className='text-[10px] uppercase tracking-[0.2em] text-white/60'>Colour your game</p>
             </div>
+            <Link href='/' className='font-black tracking-[0.2em]'>
+              OVERGRIP
+            </Link>
             <div className='flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/85'>
               {navLinks.map((link) => (
                 <Link key={link.label} href={link.href} className='hover:text-white'>
