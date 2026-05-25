@@ -83,14 +83,14 @@ export function HeroSection() {
         />
         <div className='absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/35' />
         <div className='absolute inset-0 p-6 md:p-14'>
-          <p className='text-xs uppercase tracking-[0.2em] text-white/70'>Street Performance Overgrips</p>
+          <p className='text-xs uppercase tracking-[0.2em] text-white/70'>Vibe Grips · Colour your game</p>
           <h1 className='mt-4 text-4xl font-black leading-tight md:text-7xl'>
             Your racquet.
             <br />
             Your style.
           </h1>
           <p className='mt-4 max-w-xl text-white/75'>
-            Premium tennis overgrips in bold limited colourways, built for players who want performance feel without boring design.
+            Vibe Grips makes premium tennis overgrips in bold limited colourways, built for players who want performance feel without boring design.
           </p>
           <div className='mt-8 flex flex-col gap-3 sm:flex-row'>
             <Button href='/collections'>Shop Best Sellers</Button>
@@ -292,8 +292,9 @@ export function ContentSections() {
       <footer className='section-wrap border-t border-white/10 pt-10'>
         <div className='grid gap-8 md:grid-cols-4'>
           <div>
-            <p className='font-black tracking-[0.2em]'>OVERGRIP</p>
-            <p className='mt-3 text-sm text-white/65'>Premium overgrips for tennis culture and streetwear energy.</p>
+            <p className='font-black tracking-[0.2em]'>VIBE GRIPS</p>
+            <p className='mt-1 text-xs uppercase tracking-[0.2em] text-white/60'>Colour your game</p>
+            <p className='mt-3 text-sm text-white/65'>Colour-forward overgrips for tennis culture and streetwear energy.</p>
           </div>
           <div className='space-y-2 text-sm text-white/80'>
             <p className='font-semibold text-white'>Shop</p>
@@ -311,7 +312,7 @@ export function ContentSections() {
             <p>TikTok (Placeholder)</p>
           </div>
           <div>
-            <p className='font-semibold'>Join our list</p>
+            <p className='font-semibold'>Join Vibe Grips</p>
             <div className='mt-3 flex gap-2'>
               <input className='w-full rounded-full bg-white/5 px-4 py-2 text-sm' placeholder='Email address' />
               <button className='rounded-full border border-white/20 px-4 text-sm'>Join</button>
