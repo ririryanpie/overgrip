@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body {
+  @apply bg-background text-white antialiased;
+  background-image: radial-gradient(circle at 20% 10%, rgba(173,109,255,0.12), transparent 40%), radial-gradient(circle at 80% 20%, rgba(45,245,255,0.1), transparent 35%);
+}
+.section-wrap { @apply mx-auto w-full max-w-7xl px-4 py-14 md:px-8 md:py-20; }
